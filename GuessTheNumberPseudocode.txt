@@ -1,0 +1,35 @@
+Pseudocode:
+
+#import the random library
+
+#The number of Guesses they have to guess the number (8)
+
+#print statement welcoming players to the game
+#print statement explaining the rule of the game
+
+#List of number that they can guess from (1 to 100)
+#Tell the user they have to guess a number from 1 to 100
+
+#while the number of guesses is greater than 0:
+    #if guess number is less than the number:
+        #tell the user how many guesses they have left
+        #print the statement THAT WAS TOO LOW. TRY AGAIN and GUESSES LEFT:...
+        #print the GUESS: which would will allow the user to guess a number again
+
+
+   #elif the number of guess is greater than the number:
+        #tell the user how many guesses they have left
+        #print That was too High. Try again. 
+        #print the GUESS: which would will allow the user to guess a number again
+
+    #elif the gues number is equal to the number:
+        print Congrats, you have guessed the correct number. 
+        break
+    #else:
+        #print "Sorry, you input was invalid.
+        
+    #Number Of Guesses is equal to the Number Of Guesses minus 1
+
+    #if the Number Of Guesses is equal to 0:
+        print Sorry, you Lose. You ran out of guesses. The correct number was the number
+    

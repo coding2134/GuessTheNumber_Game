@@ -1,0 +1,11 @@
+Objective: The objective of the game is for the computer user to guess the correct number between 1 and 100 given 8 tries.
+
+Algorithm:
+    1)Define a function the randomly selects numbers from 1 to 100 from a numbers/list
+    2)Define a functions/Statement that tell the user if the random guessed number is too low we will tell them "too low. Try again" 
+    3)Define a function/Statement that tell the user if the random gussed number is too high we will tell them "too high. Try again"
+    4)Create a loop that will allow the user to keep guessing until they win, or run out of tries
+    5)Define a function that counts the number of guesses, and if the user doesn't guess the number of guess in the tries given we will say "Sorry you lose, Try again."
+    6)Define a function/Statement if the user guesses the correct number we will say "You're correct. Good Job!" and then start a new game with a different number
+    7) Add statement at the beginning and the end of the game to welcome users and thank them for playing
+    
